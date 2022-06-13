@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Design System </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel = "stylesheet" href="style.css">
+    
+    </head>
+
+    <body>
+        <section class = "showcase sr">
+            <header>
+                <h2 class = "logo"> <a href="index.html">Lafoire</a> </h2>
+                <h2 class = "middle"> <a href = "box.html">Box </a></h2>
+                <h2 class = "middle"> <a href = "font.html">Fonts </a></h2>
+            </header>
+            
+            <div class = "main-content">
+                <h1 class = "headingone"> HTML/CSS Guide </h1>
+                <h2 class = "headingtwo"> CSS Box Model </h2>
+                <p> An example understanding how the CSS Box Model rule works</p>
+            </div>
+            
+            <table class = "table-content">
+                <thead>
+                    <tr>
+                        <th> Box Model Layer  </th>
+                        <th> Name </th>
+                        <th> Description </th>
+                    </tr>
+                </thead>  
+                <tbody>
+                    <tr>
+                        <td> 1 </td>
+                        <td> Content</td>
+                        <td> The content is responsible for texts, video, images, canvas and other utilities it is regarded as the 'real' content that the users on a website are looking at. The dimensions are calculated as content-box width or content-box height. It has a background color or a background image.
+                        <br>
+                        If the box-sozong property is set to content-box and is a block element, you can then further style the content's size using width, min-width, max-width, height, min-height and max-height properties.
+                        </td>
+                    </tr>
+                    
+                    <tr> 
+                        <td> 2 </td>
+                        <td> Padding </td>
+                        <td> The padding is the area aorund the content-box space and is used to create space wihtin a box or an element. It can also be used to prevent content from touching the edges of their container. </td>
+                    </tr>
+                    
+                    <tr> 
+                        <td> 3 </td>
+                        <td> Border </td>
+                        <td> The border is set within a boundry called the border edge. It extends the padding area. Borders can be seen as a line which can be styled using border-properties. When the property is set to 'border-box' the size can be adjusted using all width properties. The color of the border can be changed using the background-color property. </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> 4 </td>
+                        <td> Margin</td>
+                        <td> The margin area is the most outer part of the css box model. It extends the border area to include white space that is used to seperate the element from its neighbours.
+                        <br>
+                        The 'line height' css property is an example of how  a margin is used to create space between inline elements such as text. 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class = "image">
+                <img src="box%20model.png">
+            </div>          
+            
+            
+            
+        </section>
+    </body>
+   </html>
